@@ -1,0 +1,22 @@
+# SwiftPM build output
+.build/
+*.xcodeproj
+.swiftpm/
+
+# Backups left next to rewritten files
+*.bak
+
+# macOS
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Working notes, not part of the app
+CLAUDE.md
+STATUS.md
+DECISIONS.md
+
+# Bundled app
+build/

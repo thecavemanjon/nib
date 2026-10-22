@@ -1,0 +1,9 @@
+[project]
+name = "nib-mcp"
+version = "0.1.0"
+description = "MCP server letting a Claude session work on Nib projects"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.2", "pillow>=10", "numpy>=1.26"]
+
+[tool.uv]
+package = false
